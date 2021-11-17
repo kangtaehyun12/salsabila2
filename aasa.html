@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sakura</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="aasa.css">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+	<header>
+        <a href="index.html" class="logo">Salsa</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+            <li><a href="index.html"><font color="blue">Home</font><br></a></li>
+            <li><a href="aasa.html"><font color="blue">Calculator dan To Do list</font><br></a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+	<div class="bg"></div>
+		<div class="main" style="margin-top: 50px;">
+			<h2><font face="Times New Roman"><font color="#DC143C"><b>Calculator</b></font><br></font></h2>
+			<form name="form">
+				<input class="textarea" name="textarea">
+			</form>
+				<table>
+					<tr>
+						<td><input class="button" type="button" value="C" onclick="clean()"></td>
+						<td><input class="button" type="button" value="<" onclick="back()"></td>
+						<td><input class="button btn-green" type="button" value="/" onclick="insert(' / ')"></td>
+						<td><input class="button btn-green" type="button" value="x" onclick="insert(' * ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+						<td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+						<td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+						<td><input class="button btn-green" type="button" value="-" onclick="insert(' - ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+						<td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+						<td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+						<td><input class="button btn-green" type="button" value="+" onclick="insert(' + ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+						<td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+						<td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+						<td rowspan=2><input style="height:106px;" class="button btn-green" type="button" value="=" onclick="equal()"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="0" onclick="insert(0)"></td>
+						<td><input class="button" type="button" value="00" onclick="insert('00')"></td>
+						<td><input class="button" type="button" value="." onclick="insert('.')"></td>
+					</tr>
+				</table>
+			
+		</div>
+	</div>
+
+	<h1 style="margin-top: 700px;"><span class="title">to do </span>List</h1>
+    <div class="inputDiv">
+           <input type="text" class="input" placeholder="Apa yang ingin kamu lakukan...?">
+           <button class="add"><i class="fas fa-plus"></i></button>
+    </div>
+    <div class="container">
+    </div>
+
+</body>
+<!-- Script -->
+	<script src="aasa.js"></script>
+</html>

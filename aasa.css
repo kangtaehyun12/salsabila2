@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  background-color: transparent;
+}
+
+.logo {
+    color: white;
+    height: 50px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700px;
+    text-decoration: none;
+
+}
+
+nav {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+
+}
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: #800000;
+    box-sizing: border-box;
+}
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 50;
+    text-align: center;
+    margin: 1rem 0 3rem; 
+    font-family: 'Hind', sans-serif;
+}
+.title{
+    color: #ff69b4;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+.add{
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+.add:hover{
+    opacity: 0.7;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: 0.5rem;
+    border-bottom: 4px solid #fff;
+    margin-bottom: 1.5rem;
+}
+.item_input{
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.4rem;
+    width: 245px;
+}
+.edit{
+    background: none;
+    outline: none;
+    border: none;
+    color: lime;
+    font-size: 1.4rem;
+    font-family: 'Hind', sans-serif;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.remove{
+    background: none;
+    outline: none;
+    border: none;
+    color: #E00;
+    font-size: 1.4rem;
+    font-family: 'Hind', sans-serif;
+    cursor: pointer;
+}
+
+/*==============================
+ Di atas adalah To Do List 
+==============================*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Viga;
+}
+
+body {
+  margin-top: 600px;
+  background-image: url(fooot.jpg);
+  background-size: cover;
+  height: 637px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: fixed;
+  background: rgba(0,0,0,0.4);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px;
+}
+
+.main h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border: none;
+  background: #607d8b;
+  color: white;
+  border-radius: 25px;
+  
+}
+
+.btn-green {
+  background:lightgreen;
+  color:#607d8b;
+}
+
+.textarea {
+  width: 204px;
+  margin: 4px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  color: #607d8b;
+  border-radius: 25px;
+  text-align: right;
+}
+/*==============================
+ Di atas adalah kalkulator
+==============================*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  background-color: transparent;
+}
+
+.logo {
+    color: white;
+    height: 50px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700px;
+    text-decoration: none;
+
+}
+
+nav {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+
+}
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
